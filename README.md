@@ -11,7 +11,7 @@ A unified network analysis and SOC monitoring tool: scan, capture, investigate a
 ![Themes](https://img.shields.io/badge/themes-dark%20%7C%20light-22D3EE)
 ![Status](https://img.shields.io/badge/source-not%20open%20source-red)
 
-![NEXORA dashboard (dark)](./dashboard-dark.png)
+![NEXORA dashboard (dark)](./images/dashboard-dark.png)
 
 </div>
 
@@ -74,7 +74,7 @@ A realtime overview of the device, the network and the hosts connected to it. Th
 
 | Dark | Light |
 | :---: | :---: |
-| ![Dashboard dark](./dashboard-dark.png) | ![Dashboard light](./dashboard-light.png) |
+| ![Dashboard dark](./images/dashboard-dark.png) | ![Dashboard light](./images/dashboard-light.png) |
 
 - **My Device:** hostname, IP address (for example `1.2.3.4`), MAC address, OS, CPU architecture and RAM.
 - **Connected Network:** network name, connection status, gateway, subnet, DNS, interface, connection type and Wi-Fi signal strength.
@@ -87,7 +87,7 @@ A flexible Nmap command builder, so you do not have to remember flags.
 
 | Dark | Light |
 | :---: | :---: |
-| ![Network Scanner dark](./network_scanner-dark.png) | ![Network Scanner light](./network_scanner-light.png) |
+| ![Network Scanner dark](./images/network_scanner-dark.png) | ![Network Scanner light](./images/network_scanner-light.png) |
 
 - **Command Builder:** editable Nmap command with a **sudo** toggle, validity check, **Copy** and **Run**.
 - **Targets:** target IP (for example `1.2.3.4`) and an optional port list such as `80,443`.
@@ -102,7 +102,7 @@ Check an IP address, domain, URL or file against three threat-intelligence sourc
 
 | Dark | Light |
 | :---: | :---: |
-| ![IP Scanner dark](./IP_scanner-dark.png) | ![IP Scanner light](./IP_scanner-light.png) |
+| ![IP Scanner dark](./images/IP_scanner-dark.png) | ![IP Scanner light](./images/IP_scanner-light.png) |
 
 - **Input modes:** **IP / Domain / URL** and **File Scan**.
 - **VirusTotal:** vendor detections, country, ASN and reputation.
@@ -119,7 +119,7 @@ Live traffic capture and inspection in the style of Wireshark.
 
 | Dark | Light |
 | :---: | :---: |
-| ![Packet Analyzer dark](./Packet_Analyzer-Dark.png) | ![Packet Analyzer light](./Packet_Analyzer-light.png) |
+| ![Packet Analyzer dark](./images/Packet_Analyzer-Dark.png) | ![Packet Analyzer light](./images/Packet_Analyzer-light.png) |
 
 - **Capture Controls:** Start Capture, Stop Capture, Resume, Save (PCAP), Cancel, interface selector and **Import PCAP / PCAPNG**.
 - **Custom Templates:** save your own display-filter templates.
@@ -134,7 +134,7 @@ Live system events from the host and from a Windows VM, with filters and anomaly
 
 | Dark | Light |
 | :---: | :---: |
-| ![System Logs dark](./syslogs-Dark.png) | ![System Logs light](./syslogs-light.png) |
+| ![System Logs dark](./images/syslogs-Dark.png) | ![System Logs light](./images/syslogs-light.png) |
 
 - **Summary counters:** Total Events, Critical, Error, Warning, Info and Debug.
 - **Device type switch:** **Auto Detect**, **Windows** or **Linux** (Linux is the host machine, Windows runs in a VM); the UI and logs follow the selection.
@@ -150,7 +150,7 @@ Is the machine, and NEXORA itself, healthy? This tab appears as `Health_Analysis
 
 | Dark | Light |
 | :---: | :---: |
-| ![Health dark](./health-dark.png) | ![Health light](./health-light.png) |
+| ![Health dark](./images/health-dark.png) | ![Health light](./images/health-light.png) |
 
 - **Status banner:** "All Systems Operational" at a glance.
 - **Resource cards:** CPU, memory, disk and network I/O, each with a live mini-chart.
